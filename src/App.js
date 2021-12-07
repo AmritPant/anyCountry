@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Main from "./components/main";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = function (props) {
+  // Again its just test so please keep quite
+  fetch("https://restcountries.com/v3.1/name/nepal")
+    .then((res) => res.json())
+    .then((data) => console.log());
+
+  // ------------------------------------------------
+  return <Main />;
+};
 
 export default App;
+
+//  Data Needed
+/*
+Name: Nepal
+Official: Fedral Democratic Republic of Nepal
+UN MEMBER : Yes 
+independent: Yes
+curriences: 
+capital city:
+Region: 
+Sub Region
+landLocked: 
+Borders
+Area:
+map:
+fifa:
+Car-Driving Side:
+Time Zone: 
+Start Of Week: 
+People: Neplease
+*/
