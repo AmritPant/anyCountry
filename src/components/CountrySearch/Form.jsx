@@ -13,6 +13,7 @@ const Form = props => {
   const onSubmitHandler = event => {
     event.preventDefault();
     props.setFormActive(false);
+    props.setCountryName(curInputValue);
   };
 
   return (

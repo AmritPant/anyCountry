@@ -1,12 +1,11 @@
 .headingContainer {
   display: grid;
   grid-template-rows: 5rem;
-  grid-template-columns: 1fr 20rem;
+  grid-template-columns: 1fr 10rem;
   margin-top: 3rem;
-  margin-left: 43%;
-}
-
-.headingContainer h1 {
+  align-items: center;
+  margin-right: auto;
+  border-bottom: 1px solid #ddd;
 }
 
 .headingContainer button {
