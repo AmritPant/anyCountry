@@ -5,8 +5,17 @@ const Credit = () => {
   return (
     <div className={classes.credit}>
       <p>
-        Build With ❤️ By
-        <a href="https://www.facebook.com/amrit.pant.522" target="_blank">
+        Build With{' '}
+        <span role="img" alt>
+          {' '}
+          ❤️
+        </span>{' '}
+        By
+        <a
+          href="https://www.facebook.com/amrit.pant.522"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           - Amrit Pant
         </a>
       </p>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './RenderCountry.module.css';
 
 const RenderCountry = props => {
@@ -60,7 +60,11 @@ const RenderCountry = props => {
           {/* Map */}
           <li className={classes.dataList}>
             Map:{' '}
-            <a href={countryData.maps.googleMaps} target="_blank">
+            <a
+              href={countryData.maps.googleMaps}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Google Map
             </a>
           </li>
