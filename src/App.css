@@ -27,6 +27,12 @@ html {
   }
 }
 
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 6.5px;
+  }
+}
+
 body {
   font-size: 1.6rem;
   font-family: 'lato', sans-serif;

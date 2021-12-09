@@ -43,7 +43,9 @@
 .detailImgFlag img {
   height: 25rem;
   width: 25em;
-  margin-right: 3rem;
+  margin-right: 2rem;
+  box-sizing: content-box;
+  padding-right: 3rem;
   border-right: 1px solid #777;
 }
 
@@ -61,7 +63,7 @@
     margin-right: 3rem;
   }
 
-  .detailImgCoat img {
+  .detailImgFlag img {
     height: 20rem;
     width: 20rem;
   }
@@ -74,9 +76,20 @@
     margin-right: 3rem;
   }
 
-  .detailImgCoat img {
+  .detailImgFlag img {
     height: 15rem;
     width: 15rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .countryList {
+    flex-direction: column-reverse;
+  }
+
+  .imgBox {
+    margin: 0 auto;
+    margin-bottom: 4rem;
   }
 }
 
@@ -102,6 +115,6 @@
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center0;
   }
 }
