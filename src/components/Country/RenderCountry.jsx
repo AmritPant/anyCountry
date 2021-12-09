@@ -76,7 +76,7 @@ const RenderCountry = props => {
           </li>
           {/* Start Of week */}
           <li className={classes.dataList}>
-            Start of Week: {countryData.startofweek}
+          Start of Week: {countryData.startOfWeek}
           </li>
           {/* Time Zone */}
           <li className={classes.dataList}>
